@@ -2,14 +2,14 @@
     "name": "thangit97/demo-package",
     "description": "the first composer package",
     "type": "php",
-    "license": "aaa",
+    "license": "MIT",
     "authors": [
         {
             "name": "test",
             "email": "thang@test.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=8.2"
     },
