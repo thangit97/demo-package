@@ -1,0 +1,30 @@
+{
+    "name": "thangit97/demo-package",
+    "description": "the first composer package",
+    "type": "php",
+    "license": "aaa",
+    "authors": [
+        {
+            "name": "test",
+            "email": "thang@test.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "thangit97\\DemoPackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "thangit97\\DemoPackage\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.1@dev"
+    }
+    
+}
